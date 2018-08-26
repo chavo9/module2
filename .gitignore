@@ -9,4 +9,4 @@
 *.tfvars
 
 # module (server) directory
-server/*.tfvars
+server/vars.tf
