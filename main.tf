@@ -20,3 +20,11 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
   key_name      = "id_rsa"
 }
+
+output "public_ip" {
+  value = "${aws_instance.example.public_ip}"
+}
+
+output "public_dns" {
+  value = "${aws_instance.example.public_dns}"
+}
