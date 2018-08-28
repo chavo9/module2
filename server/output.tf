@@ -1,7 +1,3 @@
-output "address" {
-  value = "${aws_db_instance.chavo_db.address}"
-}
-
-output "port" {
-  value = "${aws_db_instance.chavo_db.port}"
+output "public_ip" {
+  value = "${aws_instance.web.public_ip}"
 }
