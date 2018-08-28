@@ -11,11 +11,6 @@ provider "aws" {
   region     = "${var.region}"
 }
 
-# keypair
-module "keypair" {
-  source = "keypair"
-}
-
 # database
 module "database" {
   source = "database"
