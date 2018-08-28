@@ -8,5 +8,10 @@
 # .tfvars files
 *.tfvars
 
+# vi swap files
+.*.swp
+
 # module (server) directory
 server/vars.tf
+
+
